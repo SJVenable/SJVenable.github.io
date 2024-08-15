@@ -1,0 +1,22 @@
+.aboutMeContainer {
+    display: inline-block;
+
+    width: 100%;
+
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.boxesContainer {
+    display: inline-block;
+    width: 100%;
+
+    
+}
+
+.titleDiv {
+    padding-top: 1%;
+    padding-bottom: 4%;
+}

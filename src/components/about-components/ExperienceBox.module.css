@@ -1,0 +1,42 @@
+.boxContainerLeft {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    
+    max-height: 230px;
+    width: 90%;
+    
+    border-radius: 10px;
+    border-width: 5px;
+    border-color: black;
+    border-style: inset;
+    box-shadow: 20px;
+
+    margin: auto;
+}
+
+.leftPic {
+    height: 30%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.pic {
+    display: flex;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    height: 90%;
+    padding: 15%;
+    width: auto;
+}
+
+.textBox {
+    padding: 5%;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    height: 20%;
+}
+
+.titleDiv {
+    width: 100%;
+}
