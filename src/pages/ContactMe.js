@@ -7,7 +7,7 @@ function ContactMe() {
       <h1 className={styles.h1} >Contact Me</h1>
 
       <div className={styles.profileSection}>
-        <img src="../images/favicon.jpg" alt="Profile" className={styles.profilePic} />
+        <img src="../images/IMG_9339.JPG" alt="Profile" className={styles.profilePic} />
         <div className={styles.intro}>
           <p>A 2nd year student at the University of Nottingham studying Computer Science with
             Artificial Intelligence. Open to working opportunities or project commissions.

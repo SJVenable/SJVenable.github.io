@@ -5,6 +5,12 @@ import styles from './Projects.module.css';
 function Projects() {
   const projectData = [
     {
+      title: "TwistMC Project Descriptions",
+      description: "A summary of some commissioned projects I've completed for the server",
+      technologies: "Java, Spigot, Gradle",
+      link: "https://github.com/SJVenable/TwistMC-Projects"
+    },
+    {
       title: "Othello Player",
       description: "An AI opponent for the board game Othello with 2 difficulty levels.",
       technologies: "C#, Minimax, Console UI",
@@ -15,6 +21,18 @@ function Projects() {
       description: "Details available personally",
       technologies: "JavaScript, Graphing Software, Statistical Analysis",
       link: '',
+    },
+    {
+      title: "Godot Game: Dodge the Creeps",
+      description: "Basic 2D game tutorial on basics of Godot",
+      technologies: "GDScript, Game Development",
+      link: "https://github.com/SJVenable/GodotPracticeProject"
+    },
+    {
+      title: "Java Minecraft Plugin Example",
+      description: "Mob Killer game - Example of my projects in Java, using the Spigot API to create Minecraft Plugins.",
+      technologies: "Java, Spigot, Game Development",
+      link: "https://github.com/SJVenable/AnimalKiller"
     },
     {
       title: "Databases and Interfaces Coursework",
