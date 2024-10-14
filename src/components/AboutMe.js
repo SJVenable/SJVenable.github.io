@@ -26,7 +26,7 @@ function AboutMe() {
       </div>
       <div className={styles.boxesContainer}>
         <ExperienceBox picSide='left' src='../images/IBM-logo.png' title='IBM Work Experience'
-        link="https://www.ibm.com/uk-en"
+        link="https://www.ibm.com/uk-en" 
         text='Completed a very informative week of work experience at Hursley IBM. Independently produced a JavaScript program to improve testing efficiency. More details available personally.
         '></ExperienceBox>
       <div className={styles.boxesContainer}>

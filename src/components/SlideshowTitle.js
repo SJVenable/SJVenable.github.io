@@ -3,41 +3,37 @@ import styles from './SlideshowTitle.module.css';
 
 function SlideshowTitle() {
 
-  const pictures = ['1','2','3'];
-
-  const [source, setSource] = useState('1');
+  const pictures = ['pic1', 'pic2', 'pic3', 'pic4', 'pic5', 'pic6', 'pic7'];
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [previousIndex, setPreviousIndex] = useState(null);
 
   useEffect(() => {
     const timer = setInterval(() => {
-      var index = (pictures.indexOf(source)+1) % pictures.length;
-      setSource(pictures[index]);
+      setPreviousIndex(currentIndex);
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % pictures.length);
     }, 3000);
-    return () => clearInterval(timer);
-  }, [source]);
 
-  useEffect(() => {
-    const header = document.getElementById('header');
-  }, [])
+    return () => clearInterval(timer);
+  }, [currentIndex]);
 
   return (
-    <div className={styles.container} >
+    <div className={styles.container}>
       <header className={styles.textbox}>
-        <h1 className={styles.title} >Samuel J Venable</h1>
-        <h2 className={styles.subheading} >Java Developer</h2>
+        <h1 className={styles.title}>Samuel J Venable</h1>
+        <h2 className={styles.subheading}>Java Developer</h2>
       </header>
       <div className={styles.slides}>
         {pictures.map((pic, index) => (
           <img 
             key={index}
-            className={`slide ${index === source ? 'active' : ''}`}
-            src={'../images/pic' + source + '.jpg'}
-            style={{opacity: source === pic ? 1 : 0 }}>
-          </img>
-        ))
-        }
+            className={`${styles.slide} ${index === currentIndex ? styles.active : index === previousIndex ? styles.previous : ''}`}
+            src={`/images/${pic}.jpg`}
+            alt={`Slide ${index + 1}`}
+          />
+        ))}
       </div>
     </div>
-  )
+  );
 }
 
-export default SlideshowTitle
+export default SlideshowTitle;

@@ -18,12 +18,12 @@ function ContactMe() {
       <div className={styles.contactDetails}>
         <div className={styles.contactItem}>
           <h3>Phone Number</h3>
-          <p><a href="tel:07517692931">(+44) 7517692931</a></p>
+          <p><a href="">(+44) 7517692931</a></p>
         </div>
 
         <div className={styles.contactItem}>
           <h3>Email</h3>
-          <p><a href="sjvenable74@gmail.com">sjvenable74@gmail.com</a></p>
+          <p><a href="">sjvenable74@gmail.com</a></p>
         </div>
 
         <div className={styles.contactItem}>
