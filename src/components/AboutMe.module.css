@@ -7,16 +7,26 @@
     justify-content: center;
     align-items: center;
     align-content: center;
+
+    text-align: center;
+    
 }
 
 .boxesContainer {
-    display: inline-block;
     width: 100%;
+    max-height: 300px;
 
+    padding-bottom: 1%;
     
 }
 
 .titleDiv {
     padding-top: 1%;
     padding-bottom: 4%;
+}
+
+.title {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    font-size: 80px;
 }

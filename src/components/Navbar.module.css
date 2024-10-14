@@ -44,4 +44,11 @@
 
 .link:hover {
     border-bottom: 4px solid #ffff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.pfp {
+    border-radius: 50%;
+    height: 30px;
 }

@@ -22,8 +22,8 @@ function SlideshowTitle() {
   return (
     <div className={styles.container} >
       <header className={styles.textbox}>
-        <h1>Mr Samuel J Venable</h1>
-        <h2>Java Developer</h2>
+        <h1 className={styles.title} >Samuel J Venable</h1>
+        <h2 className={styles.subheading} >Java Developer</h2>
       </header>
       <div className={styles.slides}>
         {pictures.map((pic, index) => (

@@ -1,0 +1,14 @@
+.projectsContainer {
+    padding: 2rem;
+  }
+  
+  .projectsGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }

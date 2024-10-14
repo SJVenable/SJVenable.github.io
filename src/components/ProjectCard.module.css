@@ -1,0 +1,49 @@
+.card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5rem;
+    text-align: center;
+    transition: transform 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  h2 {
+    margin: 0 0 1rem;
+  }
+  
+  p {
+    margin: 0.5rem 0;
+  }
+  
+  .link {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+  
+  .link:hover {
+    background-color: #0056b3;
+  }
+  
+  .blankButton {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+
+  .blankButton:hover {
+    background-color: #0056b3;
+    text-decoration: none;
+  }
