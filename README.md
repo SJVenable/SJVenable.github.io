@@ -1,3 +1,3 @@
-# SJV Portfolio Website (first draft)
+# Samuel J Venable Portfolio Website
 
-Start of portfolio website, getting the basics of Web Development including HTML, CSS, JS and React.
+Basic Website showing information and a few projects. Getting to grips with React.js alongside basic HTML/CSS/JS.
