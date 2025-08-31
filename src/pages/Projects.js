@@ -17,10 +17,10 @@ function Projects() {
       link: "https://github.com/SJVenable/OthelloPlayer",
     },
     {
-      title: "IBM Internship Year with CICS",
+      title: "IBM Work Experience Project",
       description: "Details available personally",
-      technologies: "Python, JavaScript, Distributed Systems",
-      link: "mailto:sj@venable.org.uk",
+      technologies: "JavaScript, Graphing Software, Statistical Analysis",
+      link: '',
     },
     {
       title: "Godot Game: Dodge the Creeps",
