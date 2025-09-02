@@ -5,16 +5,10 @@ import styles from './Projects.module.css';
 function Projects() {
   const projectData = [
     {
-      title: "TwistMC Project Descriptions",
-      description: "A summary of some commissioned projects I've completed for the server",
-      technologies: "Java, Spigot, Gradle",
-      link: "https://github.com/SJVenable/TwistMC-Projects"
-    },
-    {
-      title: "Othello Player",
-      description: "An AI opponent for the board game Othello with 2 difficulty levels.",
-      technologies: "C#, Minimax, Console UI",
-      link: "https://github.com/SJVenable/OthelloPlayer",
+      title: "IBM Software Engineer Intern",
+      description: "12 month placement with IBM working in the CICS department",
+      technologies: "Agentic AI, Python, Z/OS",
+      link: "mailto:sj@venable.org.uk"
     },
     {
       title: "IBM Work Experience Project",
