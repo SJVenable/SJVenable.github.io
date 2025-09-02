@@ -9,6 +9,14 @@ function AboutMe() {
         <h1 className={styles.title}>About Me</h1>
       </div>
       <div className={styles.boxesContainer}>
+        <ExperienceBox picSide='right' src='../images/IBM-logo.png' title='Software Engineer Intern' link='https://www.ibm.com/docs/en/zos-basic-skills?topic=zos-introduction-cics'
+        text="I am currently working within the CICS Customer in Production (CiP) testing team, where we test the full product each release as a customer would do, 
+        raising defects where necessary and advising the development team on issues that are found. I've set up transaction processing systems from a 
+        bank’s perspective, providing feedback on how the process could be improved from the customer’s point of view, and have created an ID generation program with 
+        customizable constraints as part of a project to improve the reliability of client connectivity.  In addition, I 
+        have gained experience with IBM’s AI offerings, experimenting with agents and developing Python tools to support their implementation."></ExperienceBox>
+      </div>
+      <div className={styles.boxesContainer}>
         <ExperienceBox picSide='left' src='../images/twist-logo.png' title='Java Developer at TwistMC' link='https://twistmc.net/'
         text="Worked developing new features and fixing issues with a network multiplayer Minecraft server,
         along with a team of developers. I wrote code for new features, gamemodes, functionality, and tested them both by myself and

@@ -9,8 +9,10 @@ function ContactMe() {
       <div className={styles.profileSection}>
         <img src="../images/IMG_9339.JPG" alt="Profile" className={styles.profilePic} />
         <div className={styles.intro}>
-          <p>A 2nd year student at the University of Nottingham studying Computer Science with
-            Artificial Intelligence. Open to working opportunities or project commissions.
+          <p>I'm a Software Engineer Intern at IBM for 12 months within the CICS testing team, and
+            a 3rd(/4) year student at the University of Nottingham studying Computer Science with
+            Artificial Intelligence. I'm looking for summer internship opportunities for 2026, with a special 
+            interest in the financial technology industry.
             Feel free to contact me through any of the methods below for more information.</p>
         </div>
       </div>

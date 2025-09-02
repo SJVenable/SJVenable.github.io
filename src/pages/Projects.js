@@ -11,6 +11,12 @@ function Projects() {
       link: "mailto:sj@venable.org.uk"
     },
     {
+      title: "TwistMC Project Descriptions",
+      description: "A summary of some commissioned projects I've completed for the server",
+      technologies: "Java, Spigot, Gradle",
+      link: "https://github.com/SJVenable/TwistMC-Projects"
+    },
+    {
       title: "IBM Work Experience Project",
       description: "Details available personally",
       technologies: "JavaScript, Graphing Software, Statistical Analysis",
