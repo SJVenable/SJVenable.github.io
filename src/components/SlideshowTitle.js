@@ -3,7 +3,7 @@ import styles from './SlideshowTitle.module.css';
 
 function SlideshowTitle() {
 
-  const pictures = ['weddingphoto', 'pic4'];
+  const pictures = ['suitphoto', 'pic4'];
   const [currentIndex, setCurrentIndex] = useState(0);
   const [previousIndex, setPreviousIndex] = useState(null);
 
