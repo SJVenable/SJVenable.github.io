@@ -7,7 +7,7 @@ function ContactMe() {
       <h1 className={styles.h1} >Contact Me</h1>
 
       <div className={styles.profileSection}>
-        <img src="../images/IMG_9339.JPG" alt="Profile" className={styles.profilePic} />
+        <img src="../images/pfp.jpg" alt="Profile" className={styles.profilePic} />
         <div className={styles.intro}>
           <p>I'm a Software Engineer Intern at IBM for 12 months within the CICS testing team, and
             a 3rd(/4) year student at the University of Nottingham studying Computer Science with
@@ -25,7 +25,7 @@ function ContactMe() {
 
         <div className={styles.contactItem}>
           <h3>Email</h3>
-          <p><a href="">sjvenable74@gmail.com</a></p>
+          <p><a href="mailto:sjvenable74@gmail.com">sjvenable74@gmail.com</a></p>
         </div>
 
         <div className={styles.contactItem}>

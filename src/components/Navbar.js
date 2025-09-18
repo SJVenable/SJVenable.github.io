@@ -19,7 +19,7 @@ function Navbar() {
               <li>
                 <Link to='/ContactMe' className={styles.link} >Contact Me</Link>
               </li>
-              <img src='../images/IMG_9339.JPG' className={styles.pfp} alt="Profile"></img>
+              <img src='../images/pfp.jpg' className={styles.pfp} alt="Profile"></img>
             </ul>
         </nav>
     </div>
