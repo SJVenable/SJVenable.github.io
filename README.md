@@ -1,4 +1,5 @@
 # Samuel J Venable Portfolio Website
 
-Updating this site to include recent development experience as of 1/09/2025. Back up in the next 2 days.
-Basic Website showing information and a few projects.  Getting to grips with React.js alongside basic HTML/CSS/JS.
+Portfolio website showcasing my experience and interests.
+
+This was a project I completed to learn the basics of react and have a place to showcase my achievements in summer 2024. I try to keep it up-to-date with my latest projects.

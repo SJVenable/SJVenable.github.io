@@ -10,11 +10,11 @@ function AboutMe() {
       </div>
       <div className={styles.boxesContainer}>
         <ExperienceBox picSide='right' src='../images/IBM-logo.png' title='Software Engineer Intern' link='https://www.ibm.com/docs/en/zos-basic-skills?topic=zos-introduction-cics'
-        text="I am currently working within the CICS Customer in Production (CiP) testing team, where we test the full product each release as a customer would do, 
-        raising defects where necessary and advising the development team on issues that are found. I've set up transaction processing systems from a 
-        bank’s perspective, providing feedback on how the process could be improved from the customer’s point of view, and have created an ID generation program with 
-        customizable constraints as part of a project to improve the reliability of client connectivity.  In addition, I 
-        have gained experience with IBM’s AI offerings, experimenting with agents and developing Python tools to support their implementation."></ExperienceBox>
+        text="I am currently working within CICS, mostly in the Customer in Production (CiP) testing team, and partly with the AI integration team. In CiP, we test the product as a customer would do, 
+        using it alongside other technologies (like our mock bank systems) to validate its compatability, and advising the development team on issues that are found. 
+        I've set up transaction processing systems from a bank’s perspective, providing feedback on how the process could be improved from the customer’s point of view, 
+        and have created an ID generation program with customizable constraints as part of a project to improve the reliability of client connectivity.  In the CICS AI team, I 
+        have gained experience with IBM’s AI offerings, using agents and the latest python libraries and frameworks to learn and research how AI might be used effectively in out department."></ExperienceBox>
       </div>
       <div className={styles.boxesContainer}>
         <ExperienceBox picSide='left' src='../images/twist-logo.png' title='Java Developer at TwistMC' link='https://twistmc.net/'
@@ -27,7 +27,7 @@ function AboutMe() {
       <div className={styles.boxesContainer}>
         <ExperienceBox picSide='right' src='../images/nottingham_logo.png' title='University of Nottingham'
         link="https://www.nottingham.ac.uk/studywithus/ugstudy/courses/UG/Computer-Science-and-Artificial-Intelligence-with-Year-in-Industry-BSc-Hons-U6UCMPAIY.html#:~:text=Course%20overview&text=You'll%20take%20part%20in,companies%20have%20offices%20in%20Nottingham."
-        text='2nd year student studying Computer Science with Artificial Intelligence.
+        text='3rd year student studying Computer Science with Artificial Intelligence.
         Currently predicted First Class Honours, with a 74% average grade across all modules so far. Top Relevant Modules: Computer Fundamentals (90%),
         System Architecture (83%), Fundamentals of Artificial Intelligence (80%), Maths for Computer Scientists I (76%) / II (78%).
         '></ExperienceBox>
