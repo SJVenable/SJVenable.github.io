@@ -27,35 +27,35 @@ function Projects() {
     },
     {
       title: "Java Minecraft Plugin Example",
-      image: "/images/favicon.jpg",
+      image: "../images/favicon.jpg",
       description: "Mob Killer game - Example of my projects in Java, using the Spigot API to create Minecraft Plugins.",
       technologies: "Java, Spigot, Game Development",
       link: "https://github.com/SJVenable/AnimalKiller"
     },
     {
       title: "Databases and Interfaces Coursework",
-      image: "/images/favicon.jpg",
+      image: "../images/favicon.jpg",
       description: "Vehicle Database User Interface",
       technologies: "HTML, CSS, JS, Supabase",
       link: "https://github.com/SJVenable/Databases-CW",
     },
     {
       title: "Portfolio Website",
-      image: "/images/favicon.jpg",
+      image: "../images/favicon.jpg",
       description: "This portfolio website's code. A project to help me learn React, alongside HTML, CSS, JavaScript and showcase my projects",
       technologies: "React, CSS, JS",
       link: "https://github.com/SJVenable/SJVenable.github.io"
     },
     {
       title: "IBM Work Experience Project 2024",
-      image: "/images/favicon.jpg",
+      image: "../images/favicon.jpg",
       description: "Details available personally",
       technologies: "JavaScript, Graphing Software, Statistical Analysis",
       link: '',
     },
     {
       title: "Godot Game: Dodge the Creeps",
-      image: "/images/favicon.jpg",
+      image: "../images/favicon.jpg",
       description: "Basic 2D game tutorial on basics of Godot",
       technologies: "GDScript, Game Development",
       link: "https://github.com/SJVenable/GodotPracticeProject"
