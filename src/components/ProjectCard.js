@@ -6,6 +6,7 @@ function ProjectCard({ title, description, technologies, link }) {
         return (
             <div className={styles.card}>
       <h2>{title}</h2>
+      {image && <img src={image} alt={title} className={styles.projectImage} />}
       <p>{description}</p>
       <p><strong>Technologies:</strong> {technologies}</p>
       <a className={styles.link}>

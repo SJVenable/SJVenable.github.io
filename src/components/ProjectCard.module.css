@@ -7,43 +7,52 @@
     transition: transform 0.2s ease;
   }
   
-  .card:hover {
-    transform: scale(1.05);
-  }
-  
-  h2 {
-    margin: 0 0 1rem;
-  }
-  
-  p {
-    margin: 0.5rem 0;
-  }
-  
-  .link {
-    display: inline-block;
-    margin-top: 1rem;
-    padding: 0.5rem 1rem;
-    background-color: #007bff;
-    color: white;
-    border-radius: 4px;
-    text-decoration: none;
-  }
-  
-  .link:hover {
-    background-color: #0056b3;
-  }
-  
-  .blankButton {
-    display: inline-block;
-    margin-top: 1rem;
-    padding: 0.5rem 1rem;
-    background-color: #007bff;
-    color: white;
-    border-radius: 4px;
-    text-decoration: none;
-  }
+/* ProjectCard.module.css */
+.projectImage {
+  max-width: 100%;
+  height: auto;
+  margin: 0.5rem 0 1rem;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
 
-  .blankButton:hover {
-    background-color: #0056b3;
-    text-decoration: none;
-  }
+.card:hover {
+  transform: scale(1.05);
+}
+
+h2 {
+  margin: 0 0 1rem;
+}
+
+p {
+  margin: 0.5rem 0;
+}
+
+.link {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.link:hover {
+  background-color: #0056b3;
+}
+
+.blankButton {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.blankButton:hover {
+  background-color: #0056b3;
+  text-decoration: none;
+}
