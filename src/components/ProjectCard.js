@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './ProjectCard.module.css';
 
-function ProjectCard({ title, description, technologies, link }) {
+function ProjectCard({ title, description, technologies, link, image }) {
     if(link === '') {
         return (
             <div className={styles.card}>
