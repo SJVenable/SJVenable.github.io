@@ -5,10 +5,10 @@ import styles from './Projects.module.css';
 function Projects() {
   const projectData = [
     {
-      title: "IBM Software Engineer Intern",
-      description: "12 month placement with IBM working in the CICS department",
-      technologies: "Agentic AI, Python, Z/OS",
-      link: "mailto:sj@venable.org.uk"
+      title: "LLM Stack Overflow Judge",
+      description: "Research into positional bias of LLMs when ranking Stack Overflow answers.",
+      technologies: "LLM-as-a-Judge, Python, Data Analytics",
+      link: "https://github.com/SJVenable/Stack_Overflow_Judge"
     },
     {
       title: "TwistMC Project Descriptions",
@@ -17,16 +17,10 @@ function Projects() {
       link: "https://github.com/SJVenable/TwistMC-Projects"
     },
     {
-      title: "IBM Work Experience Project",
-      description: "Details available personally",
-      technologies: "JavaScript, Graphing Software, Statistical Analysis",
-      link: '',
-    },
-    {
-      title: "Godot Game: Dodge the Creeps",
-      description: "Basic 2D game tutorial on basics of Godot",
-      technologies: "GDScript, Game Development",
-      link: "https://github.com/SJVenable/GodotPracticeProject"
+      title: "Othello AI Opponent",
+      description: "A terminal interface to play othello against an AI opponent, which uses the minimax algorithm",
+      technologies: "Java, Game-playing-AI",
+      link: "https://github.com/SJVenable/Othello_Player"
     },
     {
       title: "Java Minecraft Plugin Example",
@@ -39,6 +33,24 @@ function Projects() {
       description: "Vehicle Database User Interface",
       technologies: "HTML, CSS, JS, Supabase",
       link: "https://github.com/SJVenable/Databases-CW",
+    },
+    {
+      title: "Portfolio Website",
+      description: "This portfolio website's code. A project to help me learn React, alongside HTML, CSS, JavaScript and showcase my projects",
+      technologies: "React, CSS, JS",
+      link: "https://github.com/SJVenable/SJVenable.github.io"
+    },
+    {
+      title: "IBM Work Experience Project 2024",
+      description: "Details available personally",
+      technologies: "JavaScript, Graphing Software, Statistical Analysis",
+      link: '',
+    },
+    {
+      title: "Godot Game: Dodge the Creeps",
+      description: "Basic 2D game tutorial on basics of Godot",
+      technologies: "GDScript, Game Development",
+      link: "https://github.com/SJVenable/GodotPracticeProject"
     },
      
   ];
