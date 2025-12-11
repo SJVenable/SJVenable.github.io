@@ -22,7 +22,7 @@ function AboutMe() {
         along with a team of developers. I wrote code for new features, gamemodes, functionality, and tested them both by myself and
          by others, before having them released and maintaining them where issues arose. I've been working with TwistMC
         on and off for 5 years, and have improved my ability in OO and Java hugely as a result - alongside 
-        the skills to plan, design and test a project mostly independently."></ExperienceBox>
+        the skills to plan, design and test a project mostly independently. "></ExperienceBox>
       </div>
       <div className={styles.boxesContainer}>
         <ExperienceBox picSide='right' src='../images/nottingham_logo.png' title='University of Nottingham'

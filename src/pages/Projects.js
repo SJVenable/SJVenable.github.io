@@ -6,7 +6,7 @@ function Projects() {
   const projectData = [
     {
       title: "LLM Stack Overflow Judge",
-      image: "/images/favicon.jpg",
+      image: "public/images/favicon.jpg",
       description: "Research into positional bias of LLMs when ranking Stack Overflow answers.",
       technologies: "LLM-as-a-Judge, Python, Data Analytics",
       link: "https://github.com/SJVenable/Stack_Overflow_Judge"
