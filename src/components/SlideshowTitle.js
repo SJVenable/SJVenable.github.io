@@ -14,7 +14,7 @@ function SlideshowTitle() {
     }, 3000);
 
     return () => clearInterval(timer);
-  }, [currentIndex]);
+  }, [currentIndex, pictures.length]);
 
   return (
     <div className={styles.container}>

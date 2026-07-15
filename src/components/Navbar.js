@@ -7,7 +7,7 @@ function Navbar() {
     <div>
         <nav className={styles.navbar}>
           <div className={styles.logoContainer}>
-            <img src='../images/favicon.jpg' className={styles.logo}></img>
+            <img src='../images/favicon.jpg' className={styles.logo} alt="Logo" />
           </div>
             <ul className={styles.list}>
               <li>
