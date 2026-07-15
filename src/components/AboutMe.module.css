@@ -1,32 +1,25 @@
 .aboutMeContainer {
-    display: inline-block;
-
     width: 100%;
+    padding-bottom: 5rem;
+    background-color: #ffffff;
+}
 
-    justify-items: center;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-
+.titleDiv {
+    padding: 4rem 2rem 2.5rem;
     text-align: center;
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 2.5rem;
+}
 
-    padding-bottom: 5%;
-    
+.title {
+    font-family: 'Playfair Display', Georgia, serif;
+    color: #1a1a1a;
+    font-size: 2.6rem;
+    font-weight: 600;
+    margin: 0;
+    letter-spacing: -0.01em;
 }
 
 .boxesContainer {
     width: 100%;
-    max-height: 300px;
-    
-}
-
-.titleDiv {
-    padding-top: 1%;
-    padding-bottom: 4%;
-}
-
-.title {
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: black;
-    font-size: 80px;
 }
