@@ -10,11 +10,11 @@ function ContactMe() {
         <div className={styles.profileSection}>
           <img src="../images/pfp.jpg" alt="Profile" className={styles.profilePic} />
           <p className={styles.intro}>
-            I'm a Software Engineer Intern at IBM for 12 months within the CICS testing team, and
-            a 3rd year student at the University of Nottingham studying Computer Science with
-            Artificial Intelligence. I'm looking for summer internship opportunities for 2026, with
-            a special interest in software engineering. Contact me through any of the methods below
-            for more information.
+            I'm a 4th-year Computer Science with AI student at the University of Nottingham, having
+            just finished my 13-month Software Engineering internship with IBM within the CICS AI 
+            and testing teams. I'm looking for graduate opportunities starting in 2027, in Software Engineering, 
+            AI and Machine Learning. I have a special interest in medical applications of technology, and other 
+            areas which have a positive effect outside the company too. Contact me through any of the methods below for more information.
           </p>
         </div>
 
